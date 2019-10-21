@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Navigation */
+
+#main-navigation {
+	width: 900px;
+	height: 42px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navi_main {
+	text-align: center;
+	float: left;
+	width: 210px;
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+}
+
+li.navi_main ul {
+	margin: 0;
+	display: block;
+	list-style-type: none;
+	position: absolute;
+	padding: 0;
+}
+
+.navi_main a {
+	width: 190px;
+	display: inline-block;
+	background-color: #a50000;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+#navi li a:hover{
+	background-color: #aaa;
+}
+
+
+
+
+

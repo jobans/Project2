@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#half_gnb a {
+	color: green;
+	font-weight: 600;
+}
+
+#img_wrapper {
+	width: 800px;
+	height: 180px;	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(0, 0, 0, 0.25);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#img_wrapper img {
+	width: 60%;
+	height: 180px;
+}
+
+#if{
+	margin-top: 10px;
+	display:inline-block;
+	width:300px;
+	height:400px;
+}
+
+#board_body {
+	width: 1280px;
+	height: 2220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search_title {
+	width: 1000px;
+	margin-top: 10px;
+	height: 40px;
+}
+
+#search_title input[type=text]{
+	float: right;
+	height: 35px;
+	font-size: 14pt;
+}
+
+#search_title input[type=button]{
+	float: right;
+	color: #fff;
+	font-size: 13px;
+	font-family: "맑은 고딕";
+	font-weight: 600;
+	background-color: #03C75A;
+	border: 0;
+	width: 56px;
+	height: 41px;
+	cursor: pointer;
+}
+
+#search_title input[type=button]::after {
+	clear: both;
+}
+
+/* list */
+
+#content_area {
+	width: 850px;
+	height: 640px;
+	margin: 0 auto;
+	overflow: auto;
+	margin-right: 10px;
+	float: left;
+}
+
+#board_line {
+	text-align: center;
+}
+
+#board_line li {
+	display: inline-block;
+}
+
+#first_line {
+	border-top: 3px solid black;
+	border-bottom: 4px solid;
+	border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.rb-line{
+	border-bottom: 1px solid;
+	border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.b-no, .b-name, .userno, .b-date, .b-hits{
+	float: left;
+	font-weight: 600;
+	height: 43px;
+	line-height: 43px;
+}
+
+.b-line, .rb-line{
+	width: 766px;
+	height: 43px;
+	padding: 0;
+}
+
+.b-no {
+	width: 67px;
+}
+
+.b-name {
+	width: 413px;
+}
+
+.userno {
+	width: 166px;
+}
+
+.b-date {
+	width: 56px;
+}
+
+#time {
+	color: blue;
+}
+
+.b-hits {
+	width: 64px;
+}
+
+#write_board{
+	text-align: right;
+}
+
+#list_page {
+	text-align: center;
+}
+
+.direction {
+	border: 1px solid black;
+	font-weight: 600;
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+create table webboard
+(bno NUMBER(10) constraint board_pno_pk PRIMARY key,
+userno varchar2(20),
+code varchar2(30),
+ip varchar2(20),
+bname varchar2(20),
+bcontent varchar2(2000),
+regdate date,
+hits number(10));
+
+
+create sequence webboard_bno_seq
+start with 1
+increment by 1
+minvalue 1
+nocache
+nocycle;
+
+CREATE TABLE USERS 
+(
+  USERNO VARCHAR2(20) NOT NULL 
+, ID VARCHAR2(20) NOT NULL 
+, PW VARCHAR2(20) NOT NULL 
+, NAME VARCHAR2(20) NOT NULL 
+, SEX VARCHAR2(20) NOT NULL 
+, DOB DATE NOT NULL 
+, EMAIL VARCHAR2(30) NOT NULL 
+, PNO VARCHAR2(20) NOT NULL 
+, ADDRESS VARCHAR2(100) NOT NULL
+, Postalcode VARCHAR2(20) NOT NULL
+, CONSTRAINT USERS_PK PRIMARY KEY 
+  (
+    USERNO 
+  )
+  ENABLE 
+);
+
+create sequence users_userno_seq
+start with 1
+increment by 1
+minvalue 1
+nocache
+nocycle;
